@@ -4,11 +4,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.edivaldo.trade</groupId>
-	<artifactId>TraderApiSpringH2</artifactId>
+	<groupId>com.edivaldo.carstore</groupId>
+	<artifactId>carstore</artifactId>
 	<version>0.0.1</version>
-	<name>TraderApiSpringH2</name>
-	<description>com.edivaldo.trade</description>
+	<name>carstore</name>
+	<description>car store</description>
 
 
 	<parent>
@@ -52,7 +52,12 @@
 			<version>3.4.6</version>
 		</dependency>
 
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.16</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
